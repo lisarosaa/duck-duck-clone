@@ -131,7 +131,7 @@ __As a user of the site, I want to know how I can download and use the browser__
 
 ### CSS
 
-- [ ] the "cfive-section" class
+- [ ] the "five-section" class
 
 ---
 
@@ -144,11 +144,10 @@ __As a perfectionist, I want everything perfect :)__
 ### Repository
 
 - [ ] developed on a branch called `finishing-touches`
-
-- Update the development strategy
-- Write final, complete README:
+- [ ] Update the development strategy
+- [ ] Write final, complete README:
   - [makeareadme.com](https://www.makeareadme.com/)
   - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
   - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
-- Check for styling errors with a linter & prettify code
-- Validate source code on w3 to check for any last mistakes
+- [ ] Check for styling errors with a linter & prettify code
+- [ ] Validate source code on w3 to check for any last mistakes
