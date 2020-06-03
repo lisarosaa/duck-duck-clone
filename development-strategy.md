@@ -80,16 +80,16 @@ __As a user of the site, I want to know about advertisement policy of the web pa
 
 ### Repository
 
-- [ ] developed on a branch called `third-section`
+- [X] developed on a branch called `third-section`
 
 ### HTML
 
-- [ ] A section element about advertisement...
-- [ ] ... and class "third-section"
+- [X] A section element about advertisement...
+- [X] ... and class "third-section"
 
 ### CSS
 
-- [ ] the "third-section" class
+- [X] the "third-section" class
 
 ---
 
