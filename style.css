@@ -344,6 +344,28 @@ header {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
+.headerGreen {
+	color: #fff;
+	font-size: 2.35em;
+	width: 600px;
+	margin: 0 auto;
+	font-weight: 800;
+	text-align: center;
+	padding: 225px 0 0 0;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+	}
+
+
+.second-section p {
+	text-align: center;
+	color: #fff;
+	font-size: 1.25em;
+	margin: 0 32%;
+	line-height: 1.75em;
+	padding: 30px;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+	}
+
 .fakeJoin {
   border: 1px solid black;
   margin: 0 40%;
@@ -366,3 +388,38 @@ header {
   width: 65%;
   margin: 7.5% auto;
 }
+
+.third-section {
+	background-color: #f6a345;
+	position: relative;
+	z-index: -1;
+	width: 100%;
+	height: 109%;
+	}
+
+.headerOrange {
+	color: #fff;
+	font-size: 2.35em;
+	width: 450px;
+	margin: 0 auto;
+	font-weight: 800;
+	text-align: center;
+	padding: 70px 0 0 0;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+	}
+
+.third-section p {
+	text-align: center;
+	color: #fff;
+	font-size: 1.25em;
+	margin: 0 26%;
+	line-height: 1.75em;
+	padding: 30px;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+	}
+
+.third-section img {
+	display: block;
+	width: 65%;
+	margin: 12.2% auto;
+	}
