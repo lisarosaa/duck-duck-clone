@@ -29,14 +29,14 @@ padding: 0;
   height: 0;
 }
 
-input[name="twitter"]:checked + div {
+input[name="twitter"]:checked + span {
   display: block;
   position: absolute;
   top: 30px;
   right: 10px;
 }
 
-input[name="menu"]:checked + nav {
+input[name="menu"]:checked + span {
   display: block;
   position: absolute;
   top: -35px;
