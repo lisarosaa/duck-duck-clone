@@ -29,6 +29,7 @@ Project is created with:
 
 ## Features
 More information about the project:
-- [Live](https://lisarosaa.github.io/app-theme/)
-- [Resources](https://github.com/lisarosaa/app-theme)
+- [Live](https://lisarosaa.github.io/duck-duck-clone/)
+- [Resources](https://github.com/lisarosaa/duck-duck-clone)
 - [Development Strategy](https://github.com/lisarosaa/duck-duck-clone/blob/master/development-strategy.md)
+- [Project board](https://github.com/lisarosaa/duck-duck-clone/projects/1)
