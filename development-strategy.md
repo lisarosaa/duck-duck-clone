@@ -125,16 +125,16 @@ __As a user of the site, I want to know how I can download and use the browser__
 
 ### Repository
 
-- [ ] developed on a branch called `five-section`
+- [X] developed on a branch called `five-section`
 
 ### HTML
 
-- [ ] A section element about switch the browser...
-- [ ] ... and class "five-section"
+- [X] A section element about switch the browser...
+- [X] ... and class "five-section"
 
 ### CSS
 
-- [ ] the "five-section" class
+- [X] the "five-section" class
 
 ---
 
