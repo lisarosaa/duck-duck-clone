@@ -34,19 +34,22 @@ __As a user of the site, I want to know what the web page is called__
 
 ### Repository
 
-- [ ] developed on a branch called `first-section`
+- [X] developed on a branch called `first-section`
 
 ### HTML
 
-- [ ] A header element ...
-- [ ] A navigation element ...
-- [ ] A search bar ...
-- [ ] ... with the page's title
-- [ ] ... and class "first-section"
+- [X] A header element ...
+- [X] A navigation element ...
+- [X] A search bar ...
+- [X] ... with the page's title
+- [X] ... and class "first-section"
 
 ### CSS
 
-- [ ] the "first-section" class
+- [X] the `first-section` class
+- [X] the `@import` commands
+- [X] the global styles
+- [X] the classes for all elements from `first-section`
 
 ---
 
