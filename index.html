@@ -1,18 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <title>DuckDuckGo - collaboration Lisa and Abel</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/382b20def7.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Leave this here!  It renders the review buttons  -->
+    <script src='./evaluation/init.js'></script>
+  </head>
 
-<head>
-  <title></title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <!-- Leave this here!  It renders the review buttons  -->
-  <script src='./evaluation/init.js'></script>
-</head>
+  <body>
+    <article class="first-section">
+	
+      <!-- navbar upper right -->
+  
+      <header>
+        <label class="switch">
+          <span class="twitter"></span>
+          <input type="checkbox" name="twitter">
+          <div class="socialsModal">
+            <p class="modalTwitter">Twitter</p>
+            <p class="modalReddit">Reddit</p>
+            <p class="modalBlog">Blog</p>
+          </div>  	
+        </label>
+        <label class="switch">
+          <span class="menu"></span>
+          <input type="checkbox" name="menu">
+          <nav id="contextMenu" class="contextMenu">
+          <span class="closeTab"></span>
+            <h5> SETTINGS </h5>
+            <p> Themes </p>
+            <p> Other Settings </p>
+            <p> !Bang Search Shortcuts </p>
+          
+            <h5> PRIVACY ESSENTIALS </h5>
+            <p> Private Search </p>
+            <p> App and Extension </p>
+          
+            <h5> WHY PRIVACY </h5>
+            <p> Privacy Blog </p>
+            <p> Privacy Crash Course </p>
+            <p> Help Spread Privacy </p>	
+          
+            <h5>WHO WE ARE</h5>
+            <p> About Us </p>
+            <p> Privacy Policy </p>
+            <p> Careers </p>	
+               <p> Press Kit </p>	
+      
+             <h5>KEEP IN TOUCH</h5>
+             <p>Twitter </p>
+             <p> Store </p>
+             <p> Reddit </p>	
+               <p> Help </p>	
+          </nav>
+        </label>		
+      </header>
+    
+      <img src="images/logo_homepage_mobile.normal.v108.unoptimized.svg" 
+        class="mainLogo" id="mainlogo" alt="DuckDucGo logo.svg">
+          
+      <div class="SearchWrapper">
+        <div class="SearchBar">
+          <form>
+                      <input type="search" >
+                      <button type="submit" class="SearchButton"></button>
+                </form>
+            </div>
+      </div><!-- closes search wrapper -->
+          
+      <h1>Privacy, simplified.</h1>
+      <h3>Add privacy protection to your browser. 
+        Search privately, block trackers, secure connections, and more — all for free.</h3>
+          
+      <button class="fakebutton">Add DuckDuckGo to Chrome</button>
+        
+      <p class="firstWrapperText">Trusted by <span class="bold">millions </span>worldwide</p>
+        
+      <p class="firstWrapperText"> <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <span class="far fa-star"></span>
+        <span class="bold">1,121 </span>reviews</p>
+          
+      <img src="images/background_1.svg" alt="background_1.svg" class="backgroundFirstWrapper">
+        
+      <h2>How it Works</h2>
+  
+    </article> <!-- closes Section 1 -->
+  
+    <!-- boxes between two backgrounds -->
+  
+    <section class="flexBoxes">
+      <aside class="threeDivs">
+        <img src="images/box.svg" alt="box.svg">
+        <h2>Add to Chrome</h2>
+        <p>Just a few clicks to install, and you're ready to go. It's that easy.</p>
+      </aside>
+        
+      <aside class="threeDivs">
+        <img src="images/browser.svg" alt="browser.svg">
+        <h2>Browse as Usual</h2>
+        <p>We'll block hidden trackers and encrypt connections to keep you more private.</p>
+      </aside>
+            
+      <aside class="threeDivs">
+        <img src="images/shield.svg" alt="shield.svg">
+        <h2>Enjoy Peace of Mind</h2>
+        <p>DuckDuckGo Privacy Essentials protects your 
+            privacy, wherever the Internet takes you.</p>
+        </aside>
+    
+    </section> <!-- closes boxes Sections -->
+  
+  <section class="second-section">
 
-<body>
+    <h2 class="headerGreen"> We don’t store your personal information. Ever.</h2>
 
-  <section class="fifth-section">
+
+    <p>Our privacy policy is simple: we don’t collect
+      or share any of your personal information.</p>
+
+    <button class="fakeJoin">Add DuckDuckGo to Chrome</button>
+
+    <img class="bckgdSecondWrapper" src="images/1-monster-v2--pre-animation.svg" alt="monster.svg">
+
+  </section> <!-- closes Section 2 -->
+    
+    <section class="third-section">
+
+  <h2 class="headerOrange"> We don’t follow you around with ads. </h2>
+
+  <p>We don’t store your search history. We therefore have nothing
+    to sell to advertisers that track you across the Internet.</p>
+
+  <button class="fakeJoin">Add DuckDuckGo to Chrome</button>
+  
+  <img src="images/2-ghost-v2.svg" alt="ghost.svg">
+
+</section> <!-- closes Section 3 -->
+    
+    <section class="fifth-section">
 	
 		<div class="dismissAndSearch"> Dismiss Forever
 			<span class="separator"> | </span>
@@ -28,6 +161,7 @@
 		<img src="images/4-alpinist-v2.svg" alt="alpinist.svg">
 			
 	</section> <!-- closes Section 5 -->
+    
 </body>
-
+  </body>
 </html>
