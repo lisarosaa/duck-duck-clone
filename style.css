@@ -1,1 +1,63 @@
 
+.fifth-section {
+	background-color: #8acff3;
+	position: relative;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.headerLast {
+	color: #365374;
+	font-size: 2.35em;
+	font-weight: 800;
+	text-align: center;
+	padding: 75px 0 0 0;
+	width: 580px;
+	margin: 0 auto;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+	}
+
+.fifth-section p {
+	text-align: center;
+	color: #365374;
+	font-size: 1.15em;
+	margin: 0 27%;
+	line-height: 1.75em;
+	padding: 30px;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+	}
+
+
+.fifth-section img {
+	position: absolute;
+	bottom: 0;
+	left: 35%;
+	width: 32%;	
+	}
+
+.fifth-section a {
+	text-decoration: none;
+	color: #365374;
+	padding: 15px;
+	font-weight: 800;
+	}
+
+.fifth-section a:visited {
+	color: #365374;
+	}	
+
+.separator {
+	padding-left: 15px;
+	cursor: default;
+	}
+	
+.dismissAndSearch {
+	float: right;
+	display: block;
+	font-size: .8em;
+	padding: 15px;
+	color: #666;
+	cursor: pointer;
+	}
