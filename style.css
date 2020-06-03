@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap");
 
-html,body {
+html,
+body {
   position: relative;
   width: 100%;
   height: 100%;
@@ -8,6 +9,11 @@ html,body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+}
+
+.edit {
+margin: 0;
+padding: 0;
 }
 
 .switch {
@@ -23,14 +29,14 @@ html,body {
   height: 0;
 }
 
-input[name="twitter"]:checked + div {
+input[name="twitter"]:checked + span {
   display: block;
   position: absolute;
   top: 30px;
   right: 10px;
 }
 
-input[name="menu"]:checked + nav {
+input[name="menu"]:checked + span {
   display: block;
   position: absolute;
   top: -35px;
@@ -340,186 +346,185 @@ header {
 }
 
 .second-section {
-	background-color: #5cb693;
-	position: relative;
-	z-index: -1;
-	width: 100%;
-	height: 120%;
-	}
+  background-color: #5cb693;
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+}
 
 .headerGreen {
-	color: #fff;
-	font-size: 2.35em;
-	width: 600px;
-	margin: 0 auto;
-	font-weight: 800;
-	text-align: center;
-	padding: 225px 0 0 0;
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-	}
+  color: #fff;
+  font-size: 2.35em;
+  width: 600px;
+  margin: 0 auto;
+  font-weight: 800;
+  text-align: center;
+  padding: 225px 0 0 0;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
 
 .second-section p {
-	text-align: center;
-	color: #fff;
-	font-size: 1.25em;
-	margin: 0 32%;
-	line-height: 1.75em;
-	padding: 30px;
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-	}
+  text-align: center;
+  color: #fff;
+  font-size: 1.25em;
+  margin: 0 32%;
+  line-height: 1.75em;
+  padding: 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
 
 .fakeJoin {
-	border: 1px solid black;
-	margin: 0 40%;
-	width: 250px;
-	background-color: rgba(0, 0, 0, .5);
-	border: none;
-	border-radius: 5px;
-	color: #fff;
-	font-size: 1em;
-	padding: 15px 20px;		
-	}
+  border: 1px solid black;
+  margin: 0 40%;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  padding: 15px 20px;
+}
 
 .fakeJoin:hover {
-	cursor: pointer;
-	background-color: rgba(0, 0, 0, .6);	
-	}
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 
 .bckgdSecondWrapper {
-	display: block;
-	width: 65%;
-	margin: 7.5% auto;
-	}
-
+  display: block;
+  width: 65%;
+  margin: 7.5% auto;
+}
 
 .third-section {
-	background-color: #f6a345;
-	position: relative;
-	z-index: -1;
-	width: 100%;
-	height: 109%;
-	}
+  background-color: #f6a345;
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 109%;
+}
 
 .headerOrange {
-	color: #fff;
-	font-size: 2.35em;
-	width: 450px;
-	margin: 0 auto;
-	font-weight: 800;
-	text-align: center;
-	padding: 70px 0 0 0;
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-	}
+  color: #fff;
+  font-size: 2.35em;
+  width: 450px;
+  margin: 0 auto;
+  font-weight: 800;
+  text-align: center;
+  padding: 70px 0 0 0;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
 
 .third-section p {
-	text-align: center;
-	color: #fff;
-	font-size: 1.25em;
-	margin: 0 26%;
-	line-height: 1.75em;
-	padding: 30px;
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-	}
+  text-align: center;
+  color: #fff;
+  font-size: 1.25em;
+  margin: 0 26%;
+  line-height: 1.75em;
+  padding: 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
 
 .third-section img {
-	display: block;
-	width: 65%;
-	margin: 12.2% auto;
+  display: block;
+  width: 65%;
+  margin: 12.2% auto;
 }
-  
+
 .fourth-section {
-		background-color: #5f65b9;
-		position: relative;
-		z-index: -1;
-		width: 100%;
-		height: 105%;
-		}
-	
-	.headerfourth {
-		color: #fff;
-		font-size: 2.35em;
-		width: 600px;
-		margin: 0 auto;
-		font-weight: 800;
-		text-align: center;
-		padding: 70px 0 0 0;
-		text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-		}
-	
-	.fourth-section p {
-		text-align: center;
-		color: #fff;
-		font-size: 1.25em;
-		margin: 0 27%;
-		line-height: 1.75em;
-		padding: 30px;
-		text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-		}
+  background-color: #5f65b9;
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 105%;
+}
+
+.headerfourth {
+  color: #fff;
+  font-size: 2.35em;
+  width: 600px;
+  margin: 0 auto;
+  font-weight: 800;
+  text-align: center;
+  padding: 70px 0 0 0;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fourth-section p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.25em;
+  margin: 0 27%;
+  line-height: 1.75em;
+  padding: 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
 
 .fourth-section img {
-		display: block;
-		width: 65%;
-		margin: 12.6% auto;
-		}
+  display: block;
+  width: 65%;
+  margin: 12.6% auto;
+}
 
 .fifth-section {
-	background-color: #8acff3;
-	position: relative;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
-	margin: 0;
+  background-color: #8acff3;
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .headerLast {
-	color: #365374;
-	font-size: 2.35em;
-	font-weight: 800;
-	text-align: center;
-	padding: 75px 0 0 0;
-	width: 580px;
-	margin: 0 auto;
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-	}
+  color: #365374;
+  font-size: 2.35em;
+  font-weight: 800;
+  text-align: center;
+  padding: 75px 0 0 0;
+  width: 580px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
 
 .fifth-section p {
-	text-align: center;
-	color: #365374;
-	font-size: 1.15em;
-	margin: 0 27%;
-	line-height: 1.75em;
-	padding: 30px;
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-	}
+  text-align: center;
+  color: #365374;
+  font-size: 1.15em;
+  margin: 0 27%;
+  line-height: 1.75em;
+  padding: 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
 
 .fifth-section img {
-	position: absolute;
-	bottom: 0;
-	left: 35%;
-	width: 32%;	
-	}
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  width: 32%;
+}
 
 .fifth-section a {
-	text-decoration: none;
-	color: #365374;
-	padding: 15px;
-	font-weight: 800;
-	}
+  text-decoration: none;
+  color: #365374;
+  padding: 15px;
+  font-weight: 800;
+}
 
 .fifth-section a:visited {
-	color: #365374;
-	}	
+  color: #365374;
+}
 
 .separator {
-	padding-left: 15px;
-	cursor: default;
-	}
-	
+  padding-left: 15px;
+  cursor: default;
+}
+
 .dismissAndSearch {
-	float: right;
-	display: block;
-	font-size: .8em;
-	padding: 15px;
-	color: #666;
-	cursor: pointer;
-	}
+  float: right;
+  display: block;
+  font-size: 0.8em;
+  padding: 15px;
+  color: #666;
+  cursor: pointer;
+}

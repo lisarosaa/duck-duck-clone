@@ -6,7 +6,7 @@ The project acts as an example for learning accessible and responsive clone of D
 
 ## Wireframe
 
-![wireframe](./wireframe.gif)
+![wireframe](./images/wireframe.png)
 
 ## 0. Set-Up
 
@@ -61,17 +61,16 @@ __As a user of the site, I want to know about privacy policy of the web page__
 
 ### Repository
 
-- [ ] developed on a branch called `second-section`
+- [x] developed on a branch called `second-section`
 
 ### HTML
 
-- [ ] A section element using flexboxes...
-- [ ] A section element about privacy policy...
-- [ ] ... and class "second-section"
+- [x] A section element about privacy policy...
+- [x] ... and class "second-section"
 
 ### CSS
 
-- [ ] the "second-section" class
+- [x] the "second-section" class
 
 ---
 
@@ -104,16 +103,16 @@ __As a user of the site, I want to know where I can browse using private mode__
 
 ### Repository
 
-- [ ] developed on a branch called `fourth-section`
+- [x] developed on a branch called `fourth-section`
 
 ### HTML
 
-- [ ] A section element about private browsing mode...
-- [ ] ... and class "fourth-section"
+- [x] A section element about private browsing mode...
+- [x] ... and class "fourth-section"
 
 ### CSS
 
-- [ ] the "fourth-section" class
+- [x] the "fourth-section" class
 
 ---
 
@@ -146,11 +145,11 @@ __As a perfectionist, I want everything perfect :)__
 
 ### Repository
 
-- [ ] developed on a branch called `finishing-touches`
-- [ ] Update the development strategy
-- [ ] Write final, complete README:
+- [x] developed on a branch called `finishing-touches`
+- [x] Update the development strategy
+- [x] Write final, complete README:
   - [makeareadme.com](https://www.makeareadme.com/)
   - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
   - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
-- [ ] Check for styling errors with a linter & prettify code
-- [ ] Validate source code on w3 to check for any last mistakes
+- [x] Check for styling errors with a linter & prettify code
+- [x] Validate source code on w3 to check for any last mistakes
