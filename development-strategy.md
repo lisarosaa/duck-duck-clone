@@ -6,7 +6,7 @@ The project acts as an example for learning accessible and responsive clone of D
 
 ## Wireframe
 
-![wireframe](./wireframe.gif)
+![wireframe](./images/wireframe.png)
 
 ## 0. Set-Up
 
@@ -66,7 +66,6 @@ __As a user of the site, I want to know about privacy policy of the web page__
 ### HTML
 
 - [x] A section element about privacy policy...
-- [x] Aside element using flexboxes...
 - [x] ... and class "second-section"
 
 ### CSS
@@ -153,4 +152,4 @@ __As a perfectionist, I want everything perfect :)__
   - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
   - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
 - [x] Check for styling errors with a linter & prettify code
-- [ ] Validate source code on w3 to check for any last mistakes
+- [x] Validate source code on w3 to check for any last mistakes
